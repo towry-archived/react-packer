@@ -1,0 +1,54 @@
+body {
+  font: 400 14px/1.5 Arial, sans-serif;
+}
+
+#app {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px dotted #eee;
+}
+
+.container {
+  border: 1px dotted red;
+}
+
+.item {
+  width: 60px;
+  height: 60px;
+  margin: 0 5px 5px 0;
+  background: #2cc;
+  color: white;
+}
+
+.item:nth-child(2) {
+  width: 120px;
+}
+
+
+.w3 {
+  width: 100px;
+}
+
+.w5 {
+  width: 150px;
+}
+
+.w7 {
+  width: 170px;
+}
+
+.sub {
+  border: 1px dotted green;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.border {
+  border: 1px dotted #9e2;
+}
+
+.sub {
+  background-color: red;
+}

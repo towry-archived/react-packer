@@ -1,0 +1,23 @@
+var path = require('path');
+
+module.exports = {
+  entry: './src/index.js',
+  target: 'web',
+  output: {
+    path: path.join(__dirname, 'dist'),
+    filename: 'bundle.webpack.js',
+    chunkFilename: '[chunkhash].js'
+  },
+  resolve: {
+    modulesDirectories: ['node_modules']
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.jsx\.js$/,
+        loader: 'jsx-loader'
+      }
+    ],
+    noParse: /\.min\.js/
+  }
+}
